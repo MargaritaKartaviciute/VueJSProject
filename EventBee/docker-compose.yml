@@ -1,0 +1,29 @@
+version: "3.5"
+
+networks:
+  localdev:
+    name: localdev
+
+services:
+  eventbee:
+    build: ../EventBee
+    container_name: eventbee
+    restart: always
+    ports:
+      - 5000:80
+      - 5002:443
+    depends_on:
+      - database
+    networks:
+      - localdev
+  database:
+    image: microsoft/mssql-server-linux:2017-latest
+    container_name: db-server
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Password123?
+      - MSSQL_TCP_PORT=1433
+    ports:
+      - 5003:1433
+    networks:
+      - localdev

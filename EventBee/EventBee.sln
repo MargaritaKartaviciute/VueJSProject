@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBee", "EventBee.csproj", "{DA5BF6C7-4E8C-49D8-B1C0-7B057C021619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA5BF6C7-4E8C-49D8-B1C0-7B057C021619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5BF6C7-4E8C-49D8-B1C0-7B057C021619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5BF6C7-4E8C-49D8-B1C0-7B057C021619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5BF6C7-4E8C-49D8-B1C0-7B057C021619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FFA8E7D-6AF2-43E4-A875-127F1F81F329}
+	EndGlobalSection
+EndGlobal
