@@ -11,7 +11,7 @@
     "@pderas/vue2-geocoder": "^1.1.0",
     "@vue/test-utils": "^1.0.0-beta.30",
     "admin-lte": "^3.0.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "bootstrap-icons": "^1.0.0-alpha",
     "bootstrap-vue": "^2.1.0",
